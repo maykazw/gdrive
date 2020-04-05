@@ -1,0 +1,4 @@
+<h1>File index</h1>
+<% @session.files.each do |file| %>
+  <p>*<%= file.title %> - ID: <%= file.id %></p>
+<% end %>
